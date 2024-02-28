@@ -1,0 +1,73 @@
+.App {
+  background-color: rgb(155, 155, 119);
+  background-image: linear-gradient(#ffffff, #ffffcc);
+  text-align: center;
+  font-size: small;
+  padding: 5px;
+}
+
+#logoImg {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 100px;
+}
+
+#trophyImg {
+  height: 100%;
+  width: 100%;
+  max-height: 1200px;
+  max-width: 700px;
+}
+
+#awardeeImg {
+  height: 100%;
+  width: 100%;
+  max-height: 500px;
+  max-width: 900px;
+}
+
+#serviceImg {
+  height: 100%;
+  width: 100%;
+  max-height: 250px;
+  max-width: 900px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rightPart {
+  text-align: left;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  background-color: red;
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 650px) {
+  .about {
+    display: block;
+  }
+
+  #trophyImg {
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    max-width: 200px;
+  }
+
+  .contact {
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
